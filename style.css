@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+
+*, hml,body{
+    margin: 0;
+    padding: o;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border-radius: 25px;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+
+}
+
+img{
+    border-top-left-radius:25px ;
+    border-top-right-radius:25px ;
+
+
+}
+
+.bot_container ul{
+    margin-top: 2%;
+    list-style: none;
+}
+
+.bot_container ul li h1{
+    color: rgb(104, 0, 168);
+    font-family: 'Hedvig Letters Serif', serif;
+}
+.bot_container ul li h2{
+    color: rgb(252, 125, 40);
+    font-size: small;
+}
